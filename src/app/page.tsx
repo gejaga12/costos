@@ -5,7 +5,7 @@ import Testimonials from '../components/home/Testimonials';
 import CTA from '../components/home/CTA';
 import FloatingButton from '../components/home/FloatingButton';
 import BenefitsAccordion from '../components/home/BenefitsAccordion';
-import Footer from '../components/home/Footer';
+
 export default function Home() {
   return (
     <div>
@@ -15,8 +15,7 @@ export default function Home() {
       <NewsSection />
       <Testimonials />
       <CTA />
-      <FloatingButton />
-      <Footer />
+      <FloatingButton />   
     </div>
   );
 }

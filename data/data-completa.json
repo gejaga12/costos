@@ -1,0 +1,318 @@
+[
+    {
+        "rubro": "AGRIMENSURA",
+        "empresa": "GEOCAD CONSULTORA TOPOGRÁFICA Y AMBIENTAL",
+        "info": {
+            "direccion": "Calle Alberdi e/calle 5ta y calle 6ta - Rotonda Área 1 - CDE - Alto Paraná",
+            "tel": ["+595 (981) 660168", "+595 (061) 572905"]
+        }
+    },
+    {
+        "rubro": "AGRIMENSURA",
+        "empresa": "TECNOSIPLAN SA: ING. JUAN MANUEL LOPEZ",
+        "info": {
+            "descripcion": "Mensura Administrativa y Judicial, Planos Geo para presentación a Catastro, Tasación de Inmuebles Urbanos y Rurales.",
+            "direccion": "Consultas en Barrio San Pablo - Asunción",
+            "tel": ["+595 (981)433805"]
+        }
+    },
+    {
+        "rubro": "AISLACIONES",
+        "empresa": "PENNSYLVANIA S.A.",
+        "info": {
+            "descripcion": "Hidrófugo cerecita, industria nacional, contra la humedad, agua, salitre.",
+            "direccion": "Avda. San José - Piquete Qué - Limpio",
+            "tel": ["(0991) 859-787"],
+            "correo": "ventas@pennsylvania.com.py"
+        }
+    },
+    {
+        "rubro": "ALARMAS",
+        "empresa": "BALLASCH INTERNACIONAL S.A.",
+        "info": {
+            "descripcion": "Aisladores de H°, compactadoras, retroexcavadoras, compresores, vibradores de H°, contenedores.",
+            "tel": ["674 031/2"],
+            "correo": "ballasch-sa@tigo.com.py"
+        }
+    },
+    {
+        "rubro": "ALQUILER DE EQUIPO",
+        "empresa": "VECTOR S.R.L.",
+        "info": {
+            "descripcion": "Servicio de Operación de Grúas y transporte de equipos. Empresa con la certificación ISO 9001 2015 SGS.",
+            "tel": ["(021) 640 039", "(021) 640 040"],
+            "cel": ["0981 601 245", "0981 600 953"],
+            "correo": "vector@vectorsrl.com.py"
+        }
+    },
+    {
+        "rubro": "ARPONES DE SEGURIDAD",
+        "empresa": "TECNIMETAL",
+        "info": {
+            "descripcion": "Cerco eléctrico perimetral, cuchillas tipo arpón circulares y medialuna.",
+            "tel": ["+595 (021) 640039", "+595 (982) 500225"]
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "3D ARQUITECTURA - ARQ. DEISY BENITEZ",
+        "info": {
+            "descripcion": "Proyecto, Dirección y Construcción de obras. Elaboración de proyectos y presupuestos. Planos Municipales - Tasaciones urbanas y rurales.",
+            "direccion": "Km 7 Guyra Campana c/ Av. San José Ciudad del Este Py",
+            "tel": ["+595 (973) 536680"],
+            "correo": "deimary79@hotmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "AM DISEÑOS ARQUITECTÓNICOS",
+        "info": {
+            "cel": ["(0975) 617-696"],
+            "correo": "alejesusmr98@gmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. CRISTINA VELÁZQUEZ",
+        "info": {
+            "descripcion": "Diseños arquitectónicos, direcciones de obras, tasaciones urbanas, rurales, inmuebles, presupuestos, fiscalización de obras, refacciones.",
+            "direccion": "Centro. Av. Dr. Eusebio Ayala/ calle pampliega - Ciudad del Este Py.",
+            "tel": ["+595 (983) 620921", "+595 (983) 544187"]
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. ENRIQUE GRANDE EDWARDS",
+        "info": {
+            "descripcion": "Proyectos y dirección de obras - CDE.",
+            "tel": ["(061) 513 438", "514 212"],
+            "correo": "enrique.grande@gmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. GRACIELA FORNERA",
+        "info": {
+            "direccion": "Cap. Nudelmann 243 esquina Boggiani | Asunción",
+            "cel": ["(+595981) 421-013", "(+595981) 981-352"]
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. JORGE SANZ",
+        "info": {
+            "direccion": "Piribebuy N° 636 c/ 15 de Agosto",
+            "tel": ["(+595 21) 490-743"],
+            "cel": ["(0981) 429-515"],
+            "correo": "arqsanz54@hotmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. LILIANA GUSTAFSON",
+        "info": {
+            "descripcion": "Proyectos, dirección y construcción de obras. Diseño y equipamiento interior.",
+            "tel": ["+595 (981) 434490"],
+            "correo": "Iggustafson@gmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. LIZ MARLENE ESCOBAR LEZCANO",
+        "info": {
+            "descripcion": "Construcción, refacción y ampliación de casas, brindando un asesoramiento desde el inicio hasta la materialización de su hogar.",
+            "cel": ["(0981) 525-894"],
+            "correo": "escobar.liz@gmail.com",
+            "web": "www.lizescobar.arq"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. MARGARITA FIGUEREDO ARTE, HERENCIA Y ARQUITECTURA",
+        "info": {
+            "descripcion": "Arquitectura- patrimonio- interiorismo. Proyecto, construcción y dirección de obras.",
+            "tel": ["+595981-119-788"],
+            "correo": "arq.margaritafigueredo@gmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQ. RAQUEL ORTELLADO",
+        "info": {
+            "descripcion": "Proyecto, dirección y ejecución de obras.",
+            "direccion": "Capitán Braulio Lezcano 1381 - Asunción",
+            "tel": ["(021) 301-584"],
+            "cel": ["(0981) 582-535"],
+            "correo": "raquel_ortellado@hotmail.es"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ARQS. RUIZ DIAZ - COLLAR",
+        "info": {
+            "descripcion": "Proyectos, construcción, tasaciones, carpintería.",
+            "direccion": "Cnel. Duarte 918 c/ Clemente Romero",
+            "tel": ["(021) 682 - 185"],
+            "cel": ["(0971) 924 - 574", "(0971) 948 – 839"],
+            "correo": ["imotep_aa@yahoo.com", "arq.griseldacollar@gmail.com"]
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "ATEMPO ARQUITECTURA",
+        "info": {
+            "descripcion": "Anteproyectos, proyectos ejecutivos, gerenciamiento, administración, construcción y fiscalización de obras, planos con presentaciones municipales.",
+            "direccion": "Gral. Caballero esquina Capitán Bosano - Mariano Roque Alonso"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "CONCRETO - ARQUITECTURA",
+        "info": {
+            "descripcion": "Arquitectura, Proyectos, Construcciones Civiles, Diseño de Interiores.",
+            "direccion": "Guillermo Closs y Dres. Zadoff, Colonia Hohenau - Itapúa",
+            "correo": "mar77@hotmail.com",
+            "cel": ["(0985) 732-212"]
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "CV CONSTRUCTORA",
+        "info": {
+            "descripcion": "Diseño, presupuesto y ejecución de obras en general.",
+            "cel": ["0985575685"],
+            "correo": "ccvconstru@gmail.com",
+            "redes_sociales": "Ig: cv_constructora",
+            "direccion": "Fdo. de la Mora"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "LDV CONSTRUCTORA",
+        "info": {
+            "descripcion": "Proyectos, construcción y dirección de obras. Impresión de planos",
+            "direccion": "Área 4 - CDE",
+            "cel": ["(0983)615 - 840", "(0983) 627 - 934"],
+            "correo": "ldvconstructora@hotmail.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "LOGOS S.R.L. INGENIERÍA",
+        "info": {
+            "tel": ["445-269", "445-667"],
+            "correo": "clopez@logos.com.py",
+            "web": "www.logos.com.py"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "NM TERMINACIONES S.R.L",
+        "info": {
+            "descripcion": "Distribuidor oficial ATRIM, perfiles, terminaciones p/ pisos y revestimientos, guardacantos, varillas en L y más.",
+            "cel": ["(0983) 243 022"],
+            "correo": "info@nmterminaciones.com"
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "RESTAURACIÓN. CONSERVACIÓN DE EDIFICIOS Y MONUMENTOS",
+        "info": {
+            "descripcion": "Relevamiento, Análisis, Diagnóstico y Recomendaciones.",
+            "nombre_contacto": "Arq. Norma Medina",
+            "tel": ["+595 (981) 558145"]
+        }
+    },
+    {
+        "rubro": "ARQUITECTURA",
+        "empresa": "TECSAL S.A.",
+        "info": {
+            "descripcion": "Proyecto y obras de arquitectura e ingeniería.",
+            "direccion": "Pancha Garmendia 6230 - Mcal. Estigarribia",
+            "tel": ["+595 (981) 405147"],
+            "correo": "director@asunegocios.com"
+        }
+    },
+    {
+        "rubro": "AVALÚOS",
+        "empresa": "GEOCAD CONSULTORA TOPOGRÁFICA Y AMBIENTAL",
+        "info": {
+            "descripcion": "Tasaciones, agrimensura, estaciones ambientales, pericias y mensuras judiciales, loteamientos.",
+            "direccion": "CDE",
+            "tel": ["(061) 572 905", "(0464) 20 180"],
+            "correo": "geocad@geocad.com.py"
+        }
+    },
+    {
+        "rubro": "CALCULOS ESTRUCTURALES",
+        "empresa": "GQ INGENIERIA - ING. GERARDO QUINTANA",
+        "info": {
+            "descripcion": "Cálculos estructurales de hormigón armado y postensado.",
+            "direccion": "Castelar Nº 685",
+            "tel": ["(021) 290-680", "(0985) 336-500"],
+            "correo": "gquintanaovelar@gmail.com",
+            "web": "www.linkedin.com/in/gaqoy"
+        }
+    },
+    {
+        "rubro": "CALCULOS ESTRUCTURALES",
+        "empresa": "INGENIERÍA MUNIZAGA",
+        "info": {
+            "descripcion": "Proyectos estructurales de edificios en altura, locales comerciales y viviendas.",
+            "tel": ["(0961) 426 - 307"],
+            "correo": "ingmunizaga@ingmunizaga.com",
+            "web": "www.ingmunizaga.com"
+        }
+    },
+    {
+        "rubro": "CALCULOS ESTRUCTURALES",
+        "empresa": "METALÚRGICA VERA",
+        "info": {
+            "descripcion": "Cálculo, diseño, fabricación y montaje de estructuras metálicas para todo tipo de proyectos.",
+            "tel": ["+595 21 328-3240", "(0986) 280-300"],
+            "correo": "info@metalurgicavera.com.py",
+            "web": "www.metalurgicavera.com.py"
+        }
+    },
+    {
+        "rubro": "CERCOS ELECTRICOS",
+        "empresa": "TECNIMETAL",
+        "info": {
+            "descripcion": "Cerco eléctrico perimetral, cuchillas tipo arpón circulares y medialuna.",
+            "tel": ["(021) 640-205", "(0982) 500 225"],
+            "web": "www.tecnimetal.com.py"
+        }
+    },
+    {
+        "rubro": "CESPED SINTETICO",
+        "empresa": "EQUIPA S.R.L.",
+        "info": {
+            "descripcion": "Pisos de alto tránsito, granito interior, mosaicos graníticos, podotáctiles, atérmicos, polipropilenos, césped sintético y wpc ecologic.",
+            "direccion": "Lillo 1460 e/ Dr. Roque Gaona - Villa Morra",
+            "tel": ["(021) 605-5333"],
+            "cel": ["(0983) 879-000"],
+            "correo": "equipa1@equipa.com.py",
+            "web": "www.equipa.com.py"
+        }
+    },
+    {
+        "rubro": "CIELO RASOS",
+        "empresa": "DECO MUEBLES",
+        "info": {
+            "descripcion": "Mantenimiento en general. Colocación de alfombras, pisos, vinilicos, mamparas, aberturas, puertas, tapicería y herrería.",
+            "direccion": "Aca Yuasa c/ Capitán Figari",
+            "tel": ["+595 (021) 373410"],
+            "cel": ["+595 (971) 936858"],
+            "correo": "decomuebles@gmail.com"
+        }
+    },
+    {
+        "rubro": "CIELO RASOS",
+        "empresa": "SHOPPINGLASS",
+        "info": {
+            "descripcion": "Aberturas, pisos, cielos rasos, revestimientos.",
+            "tel": ["906 951/3"],
+            "web": "www.shoppinglass.com.py"
+        }
+    }
+]
