@@ -68,10 +68,11 @@ export default function Navbar() {
               </div>
 
               {/* Main Menu */}
-              <div className="hidden md:flex justify-center flex-1 space-x-4">
+              <div className="hidden md:flex justify-center flex-2 space-x-4">
                 <Link href="/productos" className="text-white hover:text-yellow-400">Productos</Link>
                 <Link href="/cotiza" className="text-white hover:text-yellow-400">Cotizá</Link>
                 <Link href="/donde-comprar" className="text-white hover:text-yellow-400">Dónde comprar</Link>
+                <Link href="/provedores" className="text-white hover:text-yellow-400">Provedores</Link>
                 <Link href="/nosotros" className="text-white hover:text-yellow-400">Nosotros</Link>
               </div>
 
@@ -89,6 +90,8 @@ export default function Navbar() {
                 <Link href="/cotiza" className="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700">Cotizá</Link>
                 <Link href="/donde-comprar" className="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700">Dónde comprar</Link>
                 <Link href="/nosotros" className="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700">Nosotros</Link>
+                <Link href="/provedores" className="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700">Provedores</Link>
+
                 <Link href="/profesionales" className="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700">Profesionales</Link>
                 <Link href="/contacto" className="text-white block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700">Contacto</Link>
               </div>

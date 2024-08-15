@@ -1,5 +1,5 @@
 import React from 'react';
-import ProviderList from '../../components/proveedores/ProviderList';
+import ProviderList from '../../components/provedores/ProviderList';
 import data from '../../../data/data-completa.json'; // Asegúrate de tener el JSON que creaste importado aquí
 
 export default function GuiaDeProveedores() {
