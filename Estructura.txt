@@ -1,0 +1,54 @@
+Estructura de Vistas
+
+    Inicio (Home)
+        Ruta: /
+        Componentes:
+            Hero Section (con imagen destacada y texto)
+            Sección de productos destacados
+            Sección de noticias o novedades
+            Testimonios de clientes
+            Llamada a la acción (CTA)
+
+    Productos
+
+        Ruta: /productos
+
+        Componentes:
+            Filtros y búsqueda de productos
+            Lista de productos (con imágenes, descripciones y enlaces a detalles)
+            Categorías de productos
+
+        Detalle del producto
+            Ruta: /productos/[id]
+            Componentes:
+                Imagen principal del producto
+                Descripción detallada
+                Especificaciones técnicas
+                Opiniones y comentarios de usuarios
+
+    Proyectos
+        Ruta: /proyectos
+        Componentes:
+            Galería de proyectos
+            Filtro por tipo de proyecto
+            Descripción de proyectos individuales
+
+    Soluciones
+        Ruta: /soluciones
+        Componentes:
+            Lista de soluciones ofrecidas por la empresa
+            Detalle de cada solución con sus beneficios y aplicaciones
+
+    Contacto
+        Ruta: /contacto
+        Componentes:
+            Formulario de contacto
+            Información de contacto (teléfonos, direcciones)
+            Mapa con ubicación
+
+    Acerca de Nosotros
+        Ruta: /nosotros
+        Componentes:
+            Historia de la empresa
+            Misión y visión
+            Equipo directivo
