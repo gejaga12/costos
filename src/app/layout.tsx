@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import Navbar from '../components/navbar/Navbar';
+import Footer from '@/components/footer/Footer';
 import './globals.css';
-import Footer from '@/components/home/Footer';
 
 export const metadata = {
   title: 'Revista Costos',

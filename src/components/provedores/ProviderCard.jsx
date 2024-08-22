@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaMobileAlt, FaGlobe } from 'react-icons/fa';
 
 export default function ProviderCard({ empresa, info }) {

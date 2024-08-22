@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect } from 'react';
 import LoginForm from '../../components/login/LoginForm';
 
 const LoginPage = () => {
