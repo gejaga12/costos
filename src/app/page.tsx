@@ -1,7 +1,5 @@
 import HeroSection from '../components/home/HeroSection';
-import FeaturedProducts from '../components/home/FeaturedProducts';
-import NewsSection from '../components/home/NewsSection';
-
+import FullScreenAnimation from '../components/home/FullScreenAnimation';
 import CTA from '../components/home/CTA';
 import FloatingButton from '../components/home/FloatingButton';
 import BenefitsAccordion from '../components/home/BenefitsAccordion';
@@ -11,8 +9,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <BenefitsAccordion />
-      {/* <FeaturedProducts /> */}
-      {/* <NewsSection />      */}
+      <FullScreenAnimation />    
       <CTA />
       <FloatingButton />   
     </div>
