@@ -2,7 +2,7 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaMobileAlt, FaGlobe } from 'react
 
 export default function ProviderCard({ empresa, info }) {
   return (
-    <div className="bg-gray-300 shadow-lg rounded-lg p-3">
+    <div className="bg-gray-300 shadow-lg rounded-lg p-3 mb-4">
       <h3 className="text-base p-1.5 rounded-t-lg font-bold bg-red-600">{empresa}</h3>
       
       {info.descripcion && <p className="text-gray-700 py-2 px-1.5 font-normal bg-slate-50">{info.descripcion}</p>}
@@ -23,7 +23,7 @@ export default function ProviderCard({ empresa, info }) {
         {info.cel && info.cel.length > 0 && (
           <div className="flex items-center text-gray-600">
             <FaMobileAlt className="mr-2" />
-            <span>{info.cel.join(' / ')}</span>
+            <span className='cursor-pointer'>{info.cel.join(' / ')}</span>
           </div>
         )}
         {info.correo && (
