@@ -1,32 +1,56 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ProviderCard from './ProviderCard';
+import CategoryGrid from './CategoryGrid';
+import SearchInput from './SearchInput'; // Importa el componente de búsqueda
 
 export default function ProviderList({ providers }) {
   const [selectedCategory, setSelectedCategory] = useState('Todos');
+  const [searchTerm, setSearchTerm] = useState(''); // Estado para el término de búsqueda
+  const [filteredProviders, setFilteredProviders] = useState(providers);
 
+  // Generar la lista de categorías a partir de los proveedores
   const categories = ['Todos', ...new Set(providers.map(provider => provider.rubro))];
 
-  const filteredProviders = selectedCategory === 'Todos'
-    ? providers
-    : providers.filter(provider => provider.rubro === selectedCategory);
+  // Filtrar los proveedores según la categoría seleccionada y el término de búsqueda
+  useEffect(() => {
+    let filtered = providers;
+
+    // Filtrar por categoría
+    if (selectedCategory !== 'Todos') {
+      filtered = filtered.filter(provider => provider.rubro === selectedCategory);
+    }
+
+    // Filtrar por término de búsqueda
+    if (searchTerm) {
+      filtered = filtered.filter(provider => {
+        const descripcion = provider.info.descripcion || ''; // Verificar que exista descripción
+        return descripcion.toLowerCase().includes(searchTerm.toLowerCase());
+      });
+    }
+
+    setFilteredProviders(filtered);
+  }, [selectedCategory, searchTerm, providers]);
+
+  // Manejar la selección de una categoría desde el grid
+  const handleSelectCategory = (category) => {
+    setSelectedCategory(category);
+  };
+
+  // Manejar cambios en el término de búsqueda
+  const handleSearchChange = (term) => {
+    setSearchTerm(term);
+  };
 
   return (
     <div className="container mx-auto p-4">
-      <div className="mb-4">
-        <label htmlFor="category" className="mr-2 font-bold">Filtrar por rubro:</label>
-        <select
-          id="category"
-          value={selectedCategory}
-          onChange={(e) => setSelectedCategory(e.target.value)}
-          className="p-2 border border-gray-300 rounded-lg"
-        >
-          {categories.map((category, index) => (
-            <option key={index} value={category}>{category}</option>
-          ))}
-        </select>
-      </div>
-      
+      {/* Componente de búsqueda */}
+      <SearchInput searchTerm={searchTerm} onSearchChange={handleSearchChange} />
+
+      {/* Cuadrícula de categorías */}
+      <CategoryGrid categories={categories} onSelectCategory={handleSelectCategory} />
+
+      {/* Lista de proveedores filtrados */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProviders.map((provider, index) => (
           <ProviderCard
