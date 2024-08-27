@@ -5,11 +5,11 @@ import Image from 'next/image'; // Importa el componente Image de Next.js
 // Componente de cuadrícula de categorías
 const CategoryGrid = ({ categories, onSelectCategory }) => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-6">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 mb-6">
       {categories.map((category, index) => (
         <div
           key={index}
-          className="relative flex items-center justify-center h-32 rounded-lg cursor-pointer shadow hover:opacity-80 overflow-hidden"
+          className="relative flex items-center justify-center h-32 rounded-lg cursor-pointer hover:opacity-90 overflow-hidden hover:shadow-md hover:shadow-black"
           onClick={() => onSelectCategory(category)}
         >
           {/* Imagen de fondo usando el componente Image de Next.js */}
