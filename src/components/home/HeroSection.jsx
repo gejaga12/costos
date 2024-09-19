@@ -12,33 +12,33 @@ export default function HeroSection() {
         muted
         className="absolute w-full h-full object-cover"
       >
-        <source src="/fondo2.mp4" type="video/mp4" />
+        <source src="/edi.mp4" type="video/mp4" />
       </video>
       
       {/* Overlay para oscurecer el video */}
-      <div className="absolute inset-0 bg-black opacity-75"></div>
+      <div className="absolute inset-0 bg-black opacity-5"></div>
 
       {/* Texto con efecto de escritura */}
       <div className="relative z-10 text-center flex flex-col items-center mt-auto mb-auto">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-          <Typewriter
-            options={{
-              strings: ['REVISTA COSTOS', 'REVISTA DE LA CONSTRUCCION'],
-              autoStart: true,
-              loop: false,  // Eliminar el loop para escribir una sola vez
-              delay: 75,
-              cursor: '',
-            }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString('REVISTA COSTOS')
-                .pauseFor(2000)
-                .typeString('<br/>REVISTA DE LA CONSTRUCCION')
-                .start();
-            }}
-          />
-        </h1>
-      </div>
+  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+    <Typewriter
+      options={{
+        autoStart: true,
+        loop: false,  // No es necesario porque por defecto no hay loop
+        delay: 75,
+        cursor: '',  // Elimina el cursor        
+      }}
+      onInit={(typewriter) => {
+        typewriter
+          .typeString('REVISTA COSTOS')
+          .pauseFor(2000)
+          .typeString('<br/>REVISTA DE LA CONSTRUCCION')
+          .start();
+      }}
+    />
+  </h1>
+</div>
+
 
       {/* Flecha hacia abajo */}
       <div className="relative z-10 mb-12 mt-auto">
